@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Rider 3D - Play</title>
+    <style>
+        /* Full-screen styling */
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+        .tf-button {
+            position: absolute;
+            bottom: 20px;
+            background-color: #f00;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+    <script async src="https://pagead2.googletagmanager.com/pagead/js/adsbygoogle.js?client=ca-pub-9780189345222438" crossorigin="anonymous"></script>
+    <script>
+        var elem;
+        function openFullscreen() {
+            elem = document.documentElement; // Request fullscreen on the entire page
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <iframe id="gm-area" src="https://bonbang.github.io/store77/snow-rider-3d/" scrolling="none" allowfullscreen></iframe>
+        <button class="tf-button" onclick="openFullscreen();">FullScreen</button>
+        <div class="adsbygoogle" style="position: absolute; top: 20px; left: 0; right: 0; text-align: center;">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9780189345222438"
+                 data-ad-slot="6775098893"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+        <div class="adsbygoogle" style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9780189345222438"
+                 data-ad-slot="3192444085"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+</body>
+</html>
